@@ -9,7 +9,6 @@
                 </h1>
             </div>
         </div>
-        <hr>
         <div class="row">
             <div class="col-12">
                 <form action="{{ route('article.create') }}" method="post">
@@ -40,8 +39,8 @@
                 </form>
             </div>
         </div>
-
-        <div class="row mt-5">
+        <hr>
+        <div class="row">
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
